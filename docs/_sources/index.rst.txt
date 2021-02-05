@@ -6,6 +6,11 @@
 Nick' Notes
 ===========
 
+These are my notes.
+
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   :numbered: 2
    :caption: Contents:
+
+   Math
