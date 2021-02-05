@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>1. Math &mdash; NicksNotes  documentation</title>
+  <title>1. Solving equations with computers &mdash; NicksNotes  documentation</title>
   
 
   
@@ -30,14 +30,16 @@
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
         <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "document", "processClass": "math|output_area"}})</script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
     
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="1.1. numerical" href="math/numerical.html" />
-    <link rel="prev" title="Nick’ Notes" href="index.html" /> 
+    <link rel="next" title="1.1. Solving PDEs" href="numerical_methods/method_of_lines.html" />
+    <link rel="prev" title="Nick’s Notes" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -84,9 +86,8 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">1. Math</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="math/numerical.html">1.1. numerical</a></li>
-<li class="toctree-l2"><a class="reference internal" href="math/pure.html">1.2. pure math</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. Solving equations with computers</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="numerical_methods/method_of_lines.html">1.1. Solving PDEs</a></li>
 </ul>
 </li>
 </ul>
@@ -135,7 +136,7 @@
     
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li><span class="section-number">1. </span>Math</li>
+      <li><span class="section-number">1. </span>Solving equations with computers</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -176,14 +177,13 @@
     text-align: unset;
 }
 </style>
-<div class="section" id="math">
-<h1><span class="section-number">1. </span>Math<a class="headerlink" href="#math" title="Permalink to this headline">¶</a></h1>
-<p>Here is some math</p>
+<div class="section" id="solving-equations-with-computers">
+<h1><span class="section-number">1. </span>Solving equations with computers<a class="headerlink" href="#solving-equations-with-computers" title="Permalink to this headline">¶</a></h1>
+<p>This section is dedicated to methods of solving equations with computers that I have found useful in my graduate school research. When my descriptions skip over important details, I try to cite textbooks that fill in the gaps.</p>
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="math/numerical.html">1.1. numerical</a></li>
-<li class="toctree-l1"><a class="reference internal" href="math/pure.html">1.2. pure math</a></li>
+<li class="toctree-l1"><a class="reference internal" href="numerical_methods/method_of_lines.html">1.1. Solving PDEs</a></li>
 </ul>
 </div>
 </div>
@@ -196,10 +196,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="math/numerical.html" class="btn btn-neutral float-right" title="1.1. numerical" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="numerical_methods/method_of_lines.html" class="btn btn-neutral float-right" title="1.1. Solving PDEs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="index.html" class="btn btn-neutral float-left" title="Nick’ Notes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Nick’s Notes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

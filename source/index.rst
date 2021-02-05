@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Nick' Notes
-===========
+Nick's Notes
+============
 
 These are my notes.
 
@@ -13,4 +13,4 @@ These are my notes.
    :numbered: 2
    :caption: Contents:
 
-   Math
+   numerical_methods
